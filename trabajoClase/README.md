@@ -1,2 +1,0 @@
-# trabajoClase
-# preguntar por @media
