@@ -21,6 +21,32 @@ body {
     margin: auto;
 }
 
+.cloak:focus {
+    outline: 4px solid rgb(174, 241, 38);
+}
+
+
+/* visibility hiden */
+
+.cloak {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    left: 20%;
+}
+
+.cloak:focus {
+    width: auto;
+    height: auto;
+    clip: auto;
+    background-color: aqua;
+}
+
 main {
     max-width: 1300px;
     font-family: 'Cabin', sans-serif;
@@ -313,7 +339,7 @@ body .img-cara {
 }
 
 .cuadro {
-    width: 200px;
+    max-width: 200px;
     height: auto;
     margin: auto;
 }
@@ -609,6 +635,34 @@ nav .form {
     flex-grow: 1;
 }
 
+
+/* redes */
+
+.redes {
+    position: fixed;
+    top: 15%;
+    margin: 0;
+    left: -70px;
+    animation: fadeInLeft 1.6s linear;
+}
+
+.redes .img {
+    width: 100px;
+    height: auto;
+    margin: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.redes a {
+    display: block;
+    margin: 0;
+}
+
+.redes .img:hover {
+    transform: translate(65px);
+    transition: 0.2s linear;
+}
+
 @media (max-width: 768px) {
     * {
         box-sizing: border-box;
@@ -646,7 +700,7 @@ nav .form {
         margin-right: 50px;
     }
     nav {
-        z-index: 1;
+        z-index: 3;
         display: flex;
         position: fixed;
         justify-content: space-between;
@@ -716,6 +770,17 @@ nav .form {
         top: 60px;
         background-color: var(--color-verde);
         margin: auto;
+        z-index: 2;
+    }
+    #overlayMobile.active {
+        visibility: visible;
+        z-index: 1;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--fondo-blanco);
     }
     .contenedornav-2 .nav-2 {
         display: block;
@@ -1137,32 +1202,26 @@ nav .form {
         justify-content: space-between;
         flex-grow: 1;
     }
-}
-
-
-/* redes */
-
-.redes {
-    position: fixed;
-    top: 15%;
-    margin: 0;
-    left: -70px;
-    animation: fadeInLeft 1.6s linear;
-}
-
-.redes .img {
-    width: 100px;
-    height: auto;
-    margin: 0;
-    border-radius: 0 10px 10px 0;
-}
-
-.redes a {
-    display: block;
-    margin: 0;
-}
-
-.redes .img:hover {
-    transform: translate(65px);
-    transition: 0.2s linear;
+    /* redes */
+    .redes {
+        position: fixed;
+        top: 15%;
+        margin: 0;
+        left: -70px;
+        animation: fadeInLeft 1.6s linear;
+    }
+    .redes .img {
+        width: 100px;
+        height: auto;
+        margin: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .redes a {
+        display: block;
+        margin: 0;
+    }
+    .redes .img:hover {
+        transform: translate(65px);
+        transition: 0.2s linear;
+    }
 }
