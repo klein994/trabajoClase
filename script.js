@@ -4,10 +4,10 @@ var menu = document.getElementById("show-list");
 
 
 menu.addEventListener("click", function() {
-        lista.classList.toggle("active");
-        lista2.classList.toggle("active");
-    })
-    // div toggle
+    lista.classList.toggle("active");
+    lista2.classList.toggle("active");
+})
+
 lista2.addEventListener("click", function() {
     lista.classList.toggle("active");
     lista2.classList.toggle("active");

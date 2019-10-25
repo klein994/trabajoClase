@@ -21,8 +21,11 @@ body {
     margin: auto;
 }
 
-.cloak:focus {
-    outline: 4px solid rgb(174, 241, 38);
+
+/*  */
+
+a:focus {
+    outline-color: rgb(174, 241, 38);
 }
 
 
@@ -37,13 +40,17 @@ body {
     padding: 0;
     position: absolute;
     width: 1px;
-    left: 20%;
+    left: 3%;
+    top: 65px;
+    font-size: 18px;
+    box-shadow: 0 6px 10px 0 rgba(27, 246, 7, 0.808), 5px 5px 22px 0 rgba(248, 252, 3, 0.87);
 }
 
 .cloak:focus {
     width: auto;
     height: auto;
     clip: auto;
+    /* outline: 4px solid rgb(174, 241, 38); */
     background-color: aqua;
 }
 
@@ -540,16 +547,18 @@ nav .form {
 }
 
 .cuadro-formulario {
-    max-width: 100vw;
-    max-height: 100vh;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--background-box);
-    padding-top: 40px;
-    padding-bottom: 10px;
+    /* padding-top: 40px;
+    padding-bottom: 10px; */
 }
 
 .formulario-inscripcion {
-    position: initial;
-    justify-content: center;
+    position: absolute;
+    top: calc( 50% - 40%);
+    right: calc( 50% - 225px);
     margin: auto;
     margin-top: 30px;
     width: 450px;
@@ -809,6 +818,7 @@ nav .form {
         background-color: var(--color-verde);
         border-radius: 25px;
         margin-right: 20px;
+        font-size: 15px;
     }
     nav .nav-2 li {
         display: block;
@@ -1116,23 +1126,22 @@ nav .form {
         animation: rubberBand 1s linear;
     }
     .cuadro-formulario {
-        max-width: 100vw;
-        max-height: 100vh;
+        width: 100vw;
+        height: 100vh;
         background-color: var(--background-box);
-        padding-top: 40px;
-        padding-bottom: 10px;
     }
     .formulario-inscripcion {
-        position: relative;
-        justify-content: center;
+        position: absolute;
+        top: calc( 50% - 40%);
+        right: calc( 50% - 40%);
+        margin: auto;
+        margin-top: 30px;
         width: 80%;
         height: auto;
-        margin-top: 30px;
-        margin-bottom: 10px;
         background-color: white;
         border: var(--border-estandar);
         border-radius: 10px;
-        padding: 0 20px 20px 20px;
+        padding: 0 20px 20px 10px;
         text-align: right;
     }
     .formulario-inscripcion img {
