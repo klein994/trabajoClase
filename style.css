@@ -28,6 +28,22 @@ a:focus {
     outline-color: rgb(174, 241, 38);
 }
 
+.hamb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: white;
+    margin: 3px;
+}
+
 
 /* visibility hiden */
 
