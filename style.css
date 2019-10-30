@@ -73,7 +73,7 @@ a:focus {
 main {
     width: 100%;
     margin: auto;
-    background-color: var(--fondo-blanco);
+    /* background-color: var(--fondo-blanco); */
     font-family: 'Cabin', sans-serif;
 }
 
@@ -262,7 +262,6 @@ body .img-cara {
     border: var(--border-estandar);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    ;
 }
 
 .cuadro-text h2,
@@ -308,10 +307,10 @@ body .img-cara {
     max-width: 1300px;
     margin: auto;
     height: auto;
-    background-color: var(--color-section-1);
+    /* background-color: var(--color-section-1); */
     padding: 20px;
     padding-top: 80px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .curso h1,
@@ -340,6 +339,7 @@ body .img-cara {
     background-color: var(--fondo-blanco);
     padding: 20px;
     border-radius: 0 10px 10px 10px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 22px 0 rgba(0, 0, 0, 0.19);
 }
 
 .curso-item .item {
@@ -807,7 +807,7 @@ nav .form {
         top: 0;
         height: 100vh;
         width: 100vw;
-        background-color: var(--fondo-blanco);
+        background-color: rgba(15, 15, 15, 0.377);
     }
     .contenedornav-2 .nav-2 {
         display: block;
