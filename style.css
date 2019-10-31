@@ -954,10 +954,10 @@ nav .form {
     .contactos {
         max-width: 100%;
         height: auto;
-        background-color: var(--color-section-1);
+        /* background-color: var(--color-section-1); */
         padding: 20px;
         padding-top: 80px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
         margin: auto;
         margin: 0;
     }
