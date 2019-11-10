@@ -646,6 +646,18 @@ nav .form {
     border-radius: 20px;
 }
 
+
+.formulario-inscripcion .dni {
+    border: none;
+    border-bottom: 1px solid var(--color-verde);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    -webkit-appearance: textfield;
+}
+
 .formulario-inscripcion .edad {
     border: none;
     border-bottom: 1px solid var(--color-verde);
@@ -654,6 +666,7 @@ nav .form {
     height: 30px;
     width: 70px;
     font-size: 16px;
+    -webkit-appearance: textfield;
 }
 
 .formulario-inscripcion .form-int {
