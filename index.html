@@ -9,68 +9,71 @@
 
 
     <title>Englishowl</title>
-
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="swiper.css">
     <link rel="stylesheet" href="animacion.css">
+    <link rel="stylesheet" href="style.css" />
+
     <link href='imagenes/favicon.png' rel='icon' type='image/x-icon' />
 
 </head>
-<!-- skip navigation  ojo-->
-<a href="#contenido" class="cloak">saltar contenido principal</a>
-<!-- nav -->
 
-<nav id="contenido">
-    <div class="logo">
-        <img class="fadeInUpBig" src="imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
-    </div>
+<body>
+    <!-- skip navigation  ojo-->
+    <a href="#contenido" class="cloak">saltar contenido principal</a>
+    <!-- nav -->
 
-    <button id="show-list"><div class="hamb">
+    <nav id="contenido">
+        <div class="logo">
+            <img class="fadeInUpBig" src="imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
+        </div>
+
+        <button id="show-list"><div class="hamb">
         <spam class="line"></spam>
         <spam class="line"></spam>
         <spam class="line"></spam>
     </div></button>
 
-    <div class="contenedornav-2" id="main-ul">
+        <div class="contenedornav-2" id="main-ul">
 
-        <ul class="nav-2" id="nav-2">
+            <ul class="nav-2" id="nav-2">
 
-            <li class="nav-li">
-                <a href="#" class="nav-a">INICIO</a>
-            </li>
-            <li class="nav-li">
-                <a href="#nosotros" class="nav-a">NOSOTROS</a>
-            </li>
-            <li class="nav-li">
-                <a href="#curso" class="nav-a">CURSOS</a>
-            </li>
-            <li class="nav-li">
-                <a href="#agenda" class="nav-a">AGENDA</a>
-            </li>
-            <li class="nav-li">
-                <a href="#sedes" class="nav-a">SEDES</a>
-            </li>
-            <li class="nav-li">
-                <a href="#contactos" class="nav-a">CONTACTOS</a>
-            </li>
-        </ul>
+                <li class="nav-li">
+                    <a href="#" class="nav-a">INICIO</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#nosotros" class="nav-a">NOSOTROS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#curso" class="nav-a">CURSOS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#agenda" class="nav-a">AGENDA</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#sedes" class="nav-a">SEDES</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#contactos" class="nav-a">CONTACTOS</a>
+                </li>
+            </ul>
 
 
-    </div>
+        </div>
 
-    <div class="in">
-        <a class="ini" href="inscripciones.html"> INSCRIBETE YA</a>
-    </div>
-</nav>
-<div></div>
-<div id=uno></div>
+        <div class="in">
+            <a class="ini" href="inscripciones.php"> INSCRIBETE YA</a>
+        </div>
+    </nav>
+    <div></div>
+    <div id=uno></div>
 
-<body>
+
 
     <div id="overlayMobile" class="ovelay"></div>
 
     <div class="contenedor-inicio">
         <div class="titulo">
-            <h1 class="titulo1" class="fadeInLeft">English Owl</h1>
+            <h1 class="titulo1 fadeInLeft">English Owl</h1>
             <h2 class="titulo3">Institute</h2>
             <h2 class="titulo2">Nuestro compromiso,</h2>
             <H2 class="titulo2">su éxito.</H2>
@@ -97,7 +100,7 @@
 
 
                     <h2>English Owl Institute</h2>
-                    <p>El equipo de English Owl Institute esta formado por un selecto grupo de profesores capacitados en la metodologia de la enseñanza con un denominador común: la pasión por el idioma Ingles.</p>
+                    <p>El equipo de English Owl Institute está formado por un selecto grupo de profesores capacitados en la metodología de la enseñanza con un denominador común: la pasión por el idioma Ingles.</p>
                     <p>Nuestro gran desafío como docentes es poder darle a los alumnos a través de nuestras clases, las herramientas necesarias para que cada uno pueda aprender Inglés de la forma más cómoda.</p>
                     <p>Formar personas autónomas, curiosas, críticas y respetuosas son objetivos que siempre nos proponemos con nuestras clases.</p>
                     <p>En muchos de nosotros el aprender un nuevo idioma es importante y en particular el Inglés nos permite desarrollarnos profesionalmente en esta actualidad globalizada en la cual vivimos.</p>
@@ -105,7 +108,24 @@
 
 
                 <div class="cuadro2 wow fadeInLeft" data-wow-delay="0.4s">
-                    <img class="slider" src="imagenes/aula-moderna.jpg" alt="">
+
+                    <!-- Swiper -->
+                    <div class="swiper-container" dir="rtl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="imagenes/aula-moderna.jpg" alt=""></div>
+                            <div class=" swiper-slide"><img src="imagenes/aula-moderna1.jpg " alt=""></div>
+                            <div class="swiper-slide"><img src="imagenes/aula-moderna2.jpg" alt=""></div>
+                            <div class=" swiper-slide"><img src="imagenes/aula-moderna3.jpg " alt=""></div>
+                            <div class="swiper-slide"><img src="imagenes/aula-moderna4.jpg" alt=""></div>
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Navigation -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+
 
                 </div>
             </div>
@@ -143,7 +163,7 @@
                             <img src="imagenes/teens.jpg" alt="" class="image">
                             <div class="overlay">
                                 <div class="text">
-                                    <p>Clares regulares</p>
+                                    <p>Clases regulares</p>
                                     <p>6 años</p>
                                     <p>Examen KET</p>
                                     <p>Examen PET</p>
@@ -160,7 +180,7 @@
                                 <div class="text">
                                     <p>Clases</p>
                                     <p>particulares</p>
-                                    <p>sin limite</p>
+                                    <p>sin límite</p>
                                     <p>de edad</p>
                                 </div>
                             </div>
@@ -179,7 +199,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cuadro wow fadeInLeft" data-wow-delay="0.3s">INTENCIVOS
+                    <div class="cuadro wow fadeInLeft" data-wow-delay="0.3s">INTENSIVOS
                         <div class="container">
                             <img src="imagenes/business.jpg" alt="" class="image">
                             <div class="overlay">
@@ -257,6 +277,7 @@
 
                     <h2>English Owl Institute</h2>
                     <p>El equipo de English Owl Institute planificamos perfectamente los tiempos para que siempre consigas el mejor horario a tus necesidades.</p>
+                    <p>Adelanta niveles con nuetros cursos intensivos y super intensivos en los meses de verano </p>
                 </div>
 
 
@@ -390,7 +411,7 @@
 
 
                     <h2>Barracas</h2>
-                    <h2 class="direccion">Isabel La Catolica 630 CABA TLF:011 4303-3645</h2>
+                    <h2 class="direccion">Isabel La Católica 630 CABA TLF:011 4303-3645</h2>
                     <div class="map2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.662565988286!2d-58.375571684899576!3d-34.63796656681784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4b1a2aac83%3A0xe27b26a2cf201e23!2sEnglish%20Owl%20Institute!5e0!3m2!1sen!2sar!4v1570404682921!5m2!1sen!2sar"
                             width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -425,17 +446,17 @@
 
 
                             <div>
-                                <label class="nombre">Telefono</label>
+                                <label class="nombre">Teléfono</label>
                                 <input type="tel" placeholder="01112341234" required>
                             </div>
 
 
-                            <label class="nombre">Correo:</label>
-                            <input type="email" placeholder="Correo@mail.com" required>
+                            <label for="email" class="nombre">Correo:</label>
+                            <input type="email" name="email" placeholder="Correo@mail.com" required id="email">
 
                             <textarea class="text-area" name="text-area" id="text-area" placeholder="Comentanos"></textarea>
 
-                            <button>Enviar</button>
+                            <input class="button" type="submit" value="Enviar" />
                     </div>
                     </form>
                 </div>
@@ -503,10 +524,30 @@
 
 </div>
 
+
+
 <script src="script.js"></script>
+
 <script src="js/wow.min.js"></script>
 <script>
     new WOW().init();
+</script>
+<script src="swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
 </script>
 
 </html>

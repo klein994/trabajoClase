@@ -11,4 +11,4 @@ menu.addEventListener("click", function() {
 lista2.addEventListener("click", function() {
     lista.classList.toggle("active");
     lista2.classList.toggle("active");
-})
+});
