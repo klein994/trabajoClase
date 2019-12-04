@@ -34,22 +34,22 @@
             <ul class="nav-2" id="nav-2">
 
                 <li class="nav-li">
-                    <a href="index.html" class="nav-a">INICIO</a>
+                    <a href="../index.html" class="nav-a">INICIO</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#nosotros" class="nav-a">NOSOTROS</a>
+                    <a href="../index.html#nosotros" class="nav-a">NOSOTROS</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#curso" class="nav-a">CURSOS</a>
+                    <a href="../index.html#curso" class="nav-a">CURSOS</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#agenda" class="nav-a">AGENDA</a>
+                    <a href="../index.html#agenda" class="nav-a">AGENDA</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#sedes" class="nav-a">SEDES</a>
+                    <a href="../index.html#sedes" class="nav-a">SEDES</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#contactos" class="nav-a">CONTACTOS</a>
+                    <a href="../index.html#contactos" class="nav-a">CONTACTOS</a>
                 </li>
             </ul>
 
@@ -57,7 +57,7 @@
         </div>
 
         <div class="in">
-            <a class="ini" href="inscripciones.php"> INSCRIBETE YA</a>
+            <a class="ini" href="../inscripciones.php"> INSCRIBETE YA</a>
         </div>
     </nav>
 
