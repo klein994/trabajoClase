@@ -1,4 +1,3 @@
-<<<<<<< HEAD:inscripciones.php
 <!DOCTYPE html>
 <html lang="es">
 
@@ -97,7 +96,6 @@
 <script src="script.js"></script>
 
 
-=======
 <!DOCTYPE html>
 <html lang="es">
 
@@ -243,5 +241,4 @@
 </div>
 <script src="script.js"></script>
 
->>>>>>> 359d67ca3d5635406768a71637c20d6c5babb270:inscripciones.html
 </html>
