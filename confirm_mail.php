@@ -1,26 +1,50 @@
 <?php
-
-// registro_pr.php
+	// registro_pr.php
 	
 	// 0. Consigo los datos
 	$nombre = $_POST['nombre'];
-	$apellido  = $_POST['apellido'];	
-	$email   = $_POST['email'];
+	$apellido  = $_POST['apellido'];
+	$dni  = $_POST['dni'];
+    $direccion  = $_POST['direccion'];
+	$edad  = $_POST['edad'];    
+	$telefono  = $_POST['telefono'];
+	$sede  = $_POST['sede'];
+	$email  = $_POST['correo'];
+   
+   
+	$clave   = md5($_POST['clave']);
 	
-
-
-        
-
-
-	$to = $email;
-	$mail = base64_encode($email);
-	$subject = "Confirmacion de inscripcion English Owl Institute";
-	$headers = "MIME-Version: 1.0" . "\r\n";
+	// 1. Conectarme a la BD
+	include("conexion.php");
 	
-	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+	// 2. Crear la query
+	$insertar = "INSERT INTO usuarios
+				 VALUES(
+					NULL,
+					'$nombre',
+					'$apellido',
+					'$dni',
+					'$direccion',
+					'$edad',
+					'$telefono',
+					'$sede',
+					'$email',
+					'$clave'
+				 )";
+	
+	// 3. Ejecutarla
+	$ej = mysqli_query($conexion, $insertar);
+	
+	// 4. Preguntar si funcionó
+	if($ej === true){
 
-	 
-	$message = "<!DOCTYPE html>
+        $to = "klein994@hotmail.com";
+        $subject = "inscripcion English Owl Institute";
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+         
+        $message = "
+        <!DOCTYPE html>
 
 
 	<head>
@@ -112,37 +136,44 @@
 <img src='https://klein994.000webhostapp.com/imagenes/logo_tramsparente.png' alt=''>
 
 <h1>English Owl Institute</h1>
-<h2>$nombre $apellido</h2>
-<h2>Confirma tu mail</h2>
-        <p>El equipo de English Owl Institute te da la bienvenida y las gracias por elegirnos, por favor dar click en CONFIRMAR para continuar con el proceso de inscripción. </p>
-        <p>Ademas en la brevedad un representante de nuestro equipo se contactará con usted para ampliar la información que necesites. </p>
+<h2>Nuevo registro</h2>
+
+<p>Nombre: $nombre</p>
+<p>Apellido: $apellido</p>
+<p>DNI: $dni</p>
+<p>Dirección: $direccion</p>
+<p>Telefono: $telefono</p>
+<p>Sede: $sede  </p>
+<p>Email: $email</p>
+  
         
-		
-		
-	
-		
-		
+        
        
-        <a class='button' href='https://klein994.000webhostapp.com/formulario2.php?mail=$mail'>CONFIRMAR</a>
+        
+       
+        
+        
+        
+
+       
+       
 </div>
     </div>
 </div>
 </body>";
-	 
-mail($to, $subject, $message, $headers);
+         
+        mail($to, $subject, $message, $headers);
 
 
-
-
-
-
-header("location:res_enviar.php");
-	
-
-		
+        	// Redirección a index.php
+		header("location:res_enviar2.php");
+        
         
 		
 	
-	
+		
+	} else {
+		echo "Error, ver SQL";
+	}
 	
 ?>

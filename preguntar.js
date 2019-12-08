@@ -1,4 +1,5 @@
 // console.log("vas bien");
+document.getElementById('siguiente').disabled = true;
 email.addEventListener("blur", (evento) => {
 
     var email = evento.target.value;
