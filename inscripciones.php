@@ -34,22 +34,22 @@
             <ul class="nav-2" id="nav-2">
 
                 <li class="nav-li">
-                    <a href="index.html" class="nav-a">INICIO</a>
+                    <a href="index.php" class="nav-a">INICIO</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#nosotros" class="nav-a">NOSOTROS</a>
+                    <a href="index.php#nosotros" class="nav-a">NOSOTROS</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#curso" class="nav-a">CURSOS</a>
+                    <a href="index.php#curso" class="nav-a">CURSOS</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#agenda" class="nav-a">AGENDA</a>
+                    <a href="index.php#agenda" class="nav-a">AGENDA</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#sedes" class="nav-a">SEDES</a>
+                    <a href="index.php#sedes" class="nav-a">SEDES</a>
                 </li>
                 <li class="nav-li">
-                    <a href="index.html#contactos" class="nav-a">CONTACTOS</a>
+                    <a href="index.php#contactos" class="nav-a">CONTACTOS</a>
                 </li>
             </ul>
 
@@ -73,22 +73,22 @@
 
 </body>
 
-<div class="redes">
+<div class="redes" class="fadeInLeft">
 
     <a href="">
-        <img class="img" src="imagenes/faceMenu.jpg" alt="">
+        <img class="img" src="imagenes/faceMenu.jpg" alt="Ir a Faceboock">
     </a>
     <a href="">
-        <img class="img" src="imagenes/instagramMenu.jpg" alt="">
+        <img class="img" src="imagenes/instagramMenu.jpg" alt="Ir a Instagram">
     </a>
     <a href="">
-        <img class="img" src="imagenes/twitterMenu.jpg" alt="">
+        <img class="img" src="imagenes/twitterMenu.jpg" alt="Ir a Twitter">
     </a>
     <a href="https://blended.com.ar/login">
-        <img class="img" src="imagenes/blendedMenu.jpg" alt="">
+        <img class="img" src="imagenes/blendedMenu.jpg" alt=" Ir a Blended">
     </a>
     <a href="https://api.whatsapp.com/send?phone=0123456789">
-        <img class="img" src="imagenes/wsMenu.jpg" alt="">
+        <img class="img" src="imagenes/wsMenu.jpg" alt="Escribir a Whatsapp">
     </a>
 
 </div>

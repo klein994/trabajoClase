@@ -22,7 +22,7 @@
 		while($reg = mysqli_fetch_array($ej)){
 			?>
 			<a href="#" class="listado-libro">
-				<h2><?php echo $reg['nombre']; ?>
+				<p><?php echo $reg['nombre']; ?>
 					-					
                         <?php echo $reg['apellido']; ?>
                         -
@@ -38,7 +38,7 @@
                         -
 						<?php echo $reg['email']; ?>
 						
-			</h2>
+		</p>
 				
 				
 			</a>

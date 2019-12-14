@@ -32,7 +32,7 @@
 body {
     max-width: 100%;
     font-family: 'Cabin', sans-serif;
-    background-image: url("fondo1.jpg");
+    background-image: url("./imagenes/fondo.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,6 +126,7 @@ main .main-img {
     width: 50px;
     height: auto;
     margin: 0 10% 0 0;
+    color: white;
 }
 
 nav #show-list {
@@ -214,6 +215,11 @@ body .titulo {
     animation: fadeInLeft 1s linear;
 }
 
+body .titulo1:hover {
+    animation: pulse 800ms infinite;
+    animation-timing-function: linear
+}
+
 body .titulo1 {
     font-size: 8vw;
     color: var(--color-verde);
@@ -259,9 +265,19 @@ body .parrafo,
 }
 
 body .img-cara {
-    width: 175px;
+    width: 35%;
     height: auto;
     animation: zoomIn 1s linear;
+    color: white;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+body .img-cara:hover {
+    max-width: 100%;
+    animation: flip 800ms infinite;
+    animation-timing-function: linear;
 }
 
 
@@ -941,7 +957,7 @@ input[type="number"]::-webkit-inner-spin-button {
     }
     body .titulo3 {
         position: relative;
-        left: 20%;
+        left: -1%;
         text-align: center;
         margin: 0;
         font-size: 2.5vw;
@@ -967,9 +983,7 @@ input[type="number"]::-webkit-inner-spin-button {
         text-shadow: 2px 2px 2px black;
     }
     body .img-cara {
-        width: 100px;
-        height: auto;
-        animation: zoomIn 1s linear;
+        top: 10%;
     }
     /* nosotros */
     .nosotros-item,
@@ -1063,7 +1077,7 @@ input[type="number"]::-webkit-inner-spin-button {
         padding: 5px;
         border-radius: 10 10 0 0;
         font-size: 15px;
-        max-width: 19vw;
+        max-width: 21vw;
         border-radius: 10px 10px 0 0;
         text-align: center;
     }

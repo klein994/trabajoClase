@@ -69,8 +69,9 @@
 
 <h1>English Owl Institute</h1>
 <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_960_720.png"style="width:50px;">
-<h2>Inscripcion enviada</h2>
-        <p>El equipo de English Owl Institute te da la bienvenida y las gracias por elegirnos. </p>
+
+<h2>¡Consulta enviada!</h2>
+        
         <p>En la brevedad un representante de nuestro equipo se contactará con usted para ampliar la información que necesites. </p>
         
 
