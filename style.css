@@ -272,6 +272,7 @@ body .img-cara {
     position: absolute;
     top: 20%;
     right: 10%;
+    clip-path: circle(50%);
 }
 
 body .img-cara:hover {
