@@ -4,23 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
-    <meta property="og:title" content="English Owl Institute">
-    <meta property="og:site_name" content="English Owl Institute">
-    <meta property="og:url" content="http://www.englishowl.com.ar/">
-    <meta property="og:description" content="English Owl Institute está formado por un selecto grupo de profesores capacitados en la metodología de la enseñanza en el idioma Ingles">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://thumbs.subefotos.com/ae0afae86cbc8f8ece8aaf7a8f3a9e9eo.jpg">
-
-    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
-
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Englishowl</title>
+    <link href='imagenes/favicon.png' rel='icon' type='image/x-icon' />
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="og:title" content="English Owl Institute">
+    <meta property="og:description" content="English Owl Institute está formado por un selecto grupo de profesores capacitados en la metodología de la enseñanza en el idioma Ingles">
+    <meta property="og:image" content="https://thumbs.subefotos.com/ae0afae86cbc8f8ece8aaf7a8f3a9e9eo.jpg">
+    <meta property="og:url" content="http://www.englishowl.com.ar/">
+    <meta property="og:site_name" content="English Owl Institute">
+    <meta name="og:locale" content="es_AR">   
+    <meta property="og:type" content="website">
+    <!-- Search Engine -->
+    <meta name="description" content="English Owl Institute está formado por un selecto grupo de profesores capacitados en la metodología de la enseñanza en el idioma Ingles">
+    <meta name="image" content="https://thumbs.subefotos.com/ae0afae86cbc8f8ece8aaf7a8f3a9e9eo.jpg">
+
+    <!-- fuente -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <!-- link a css -->    
     <link rel="stylesheet" href="swiper.css">
     <link rel="stylesheet" href="animacion.css">
     <link rel="stylesheet" href="style.css" />
 
-    <link href='imagenes/favicon.png' rel='icon' type='image/x-icon' />
+    
 
 </head>
 
