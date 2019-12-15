@@ -153,7 +153,7 @@
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.3s">NIÑOS Y NIÑAS
                         <div class="container">
 
-                            <img src="imagenes/kids.jpg" alt="" class="image">
+                            <img src="imagenes/kids.jpg" alt="niños y niñas" class="image">
                             <div class="overlay">
                                 <div class="text">
                                     <p>Desde los 4 años</p>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.5s">ADOLESCENTES
                         <div class="container">
-                            <img src="imagenes/teens.jpg" alt="" class="image">
+                            <img src="imagenes/teens.jpg" alt="adolescentes" class="image">
                             <div class="overlay">
                                 <div class="text">
                                     <p>Clases regulares</p>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.7s">ADULTOS
                         <div class="container">
-                            <img src="imagenes/ancianos.jpg" alt="" class="image">
+                            <img src="imagenes/ancianos.jpg" alt="adultos" class="image">
                             <div class="overlay">
                                 <div class="text">
                                     <p>Clases</p>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.9s">TALLERES
                         <div class="container">
-                            <img src="imagenes/adulto.jpg" alt="" class="image">
+                            <img src="imagenes/adulto.jpg" alt="talleres" class="image">
                             <div class="overlay">
                                 <div class="text">
                                     <p>3 Niveles</p>
@@ -208,7 +208,7 @@
                     </div>
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.3s">INTENSIVOS
                         <div class="container">
-                            <img src="imagenes/business.jpg" alt="" class="image">
+                            <img src="imagenes/business.jpg" alt="intensivos" class="image">
                             <div class="overlay">
                                 <div class="text">
 
@@ -224,7 +224,7 @@
 
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.5s">INDIVIDUALES
                         <div class="container">
-                            <img src="imagenes/equipo.jpg" alt="" class="image">
+                            <img src="imagenes/equipo.jpg" alt="individuales" class="image">
                             <div class="overlay">
                                 <div class="text">
 
@@ -239,7 +239,7 @@
 
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.7s">BUSINESS
                         <div class="container">
-                            <img src="imagenes/negocio.jpg" alt="" class="image">
+                            <img src="imagenes/negocio.jpg" alt="negocios" class="image">
                             <div class="overlay">
                                 <div class="text">
                                     <p>Seminarios</p>
@@ -250,7 +250,7 @@
                     </div>
                     <div class="cuadro wow fadeInLeft" data-wow-delay="0.9s">TRAVELS
                         <div class="container">
-                            <img src="imagenes/viaje-1.jpg" alt="" class="image">
+                            <img src="imagenes/viaje-1.jpg" alt="viajes de estudios" class="image">
                             <div class="overlay">
                                 <div class="text">
                                     <p>Viajes de estudios</p>
@@ -293,7 +293,7 @@
                     <div class="contenedor-agenda">
                         <div class="meses wow fadeInLeft" data-wow-delay="0.5s"> ENERO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="enero" class="image">
                                 <div class="overlay">
                                     <div class="text">ENERO</div>
                                 </div>
@@ -301,7 +301,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.6s">FEBRERO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="febrero" class="image">
                                 <div class="overlay">
                                     <div class="text">FEBRERO</div>
                                 </div>
@@ -309,7 +309,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.7s">MARZO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="marzo" class="image">
                                 <div class="overlay">
                                     <div class="text">MARZO</div>
                                 </div>
@@ -317,7 +317,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.8s">ABRIL
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="abril" class="image">
                                 <div class="overlay">
                                     <div class="text">ABRIL</div>
                                 </div>
@@ -325,7 +325,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.5s">MAYO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="mayo" class="image">
                                 <div class="overlay">
                                     <div class="text">MAYO</div>
                                 </div>
@@ -333,7 +333,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.6s">JUNIO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="junio" class="image">
                                 <div class="overlay">
                                     <div class="text">JUNIO</div>
                                 </div>
@@ -341,7 +341,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.7s">JULIO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="julio" class="image">
                                 <div class="overlay">
                                     <div class="text">JULIO</div>
                                 </div>
@@ -349,7 +349,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.8s">AGOSTO
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="agosto" class="image">
                                 <div class="overlay">
                                     <div class="text">AGOSTO</div>
                                 </div>
@@ -357,7 +357,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.5s">SEPTIEMBRE
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="septiembre" class="image">
                                 <div class="overlay">
                                     <div class="text">SEPTIEMBRE</div>
                                 </div>
@@ -365,7 +365,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.6s">OCTUBRE
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="octubre" class="image">
                                 <div class="overlay">
                                     <div class="text">OCTUBRE</div>
                                 </div>
@@ -373,7 +373,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.7s">NOVIEMBRE
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="noviembre" class="image">
                                 <div class="overlay">
                                     <div class="text">NOVIEMBRE</div>
                                 </div>
@@ -381,7 +381,7 @@
                         </div>
                         <div class="meses wow fadeInLeft" data-wow-delay="0.8s">DICIEMBRE
                             <div class="container">
-                                <img src="imagenes/hoja.jpg" alt="" class="image">
+                                <img src="imagenes/hoja.jpg" alt="diciembre" class="image">
                                 <div class="overlay">
                                     <div class="text">DICIEMBRE</div>
                                 </div>
@@ -473,13 +473,13 @@
                     <img src="imagenes/logo_tramsparente.png" alt="">
                     <h2>Redes</h2>
                     <a href="">
-                        <img class="img" src="imagenes/facebook-create.png" alt="">
+                        <img class="img" src="imagenes/facebook-create.png" alt="Ir a Faceboock">
                     </a>
                     <a href="">
-                        <img class="img" src="imagenes/instagram-banner-01.png" alt="">
+                        <img class="img" src="imagenes/instagram-banner-01.png" alt="Ir a Instagram">
                     </a>
                     <a href="">
-                        <img class="img" src="imagenes/twitter-banner.jpg" alt="">
+                        <img class="img" src="imagenes/twitter-banner.jpg" alt="Ir a Twitter">
                     </a>
                     <a href="https://blended.com.ar/login">
                         <img class="img" src="imagenes/blended.png" alt="">
@@ -497,7 +497,7 @@
 
 
                         <a href="https://api.whatsapp.com/send?phone=0123456789">
-                            <img src="imagenes/WhatsApp-Banner.jpg" alt="">
+                            <img src="imagenes/WhatsApp-Banner.jpg" alt="Escribir a Whatsapp">
                         </a>
 
 

@@ -250,8 +250,8 @@ body .parrafo,
     margin: 10% 0 0 200px;
     font-size: 2vw;
     font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    color: black;
+    text-shadow: 2px 2px 2px white;
 }
 
 body .parrafo,
@@ -260,8 +260,8 @@ body .parrafo,
     margin: 1% 0 0 200px;
     font-size: 2vw;
     font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    color: black;
+    text-shadow: 2px 2px 2px white;
 }
 
 body .img-cara {
@@ -958,7 +958,6 @@ input[type="number"]::-webkit-inner-spin-button {
     }
     body .titulo3 {
         position: relative;
-        left: -1%;
         text-align: center;
         margin: 0;
         font-size: 2.5vw;
@@ -971,8 +970,6 @@ input[type="number"]::-webkit-inner-spin-button {
         margin: 10% 0 0 0;
         font-size: 15px;
         font-weight: bold;
-        color: white;
-        text-shadow: 2px 2px 2px black;
     }
     body .parrafo,
     .parrafo1 {
@@ -980,8 +977,6 @@ input[type="number"]::-webkit-inner-spin-button {
         margin: 1% 0 0 0;
         font-size: 15px;
         font-weight: bold;
-        color: white;
-        text-shadow: 2px 2px 2px black;
     }
     body .img-cara {
         top: 10%;
