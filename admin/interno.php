@@ -108,24 +108,67 @@
                 <div class="cuadro-text wow fadeInLeft" data-wow-delay="0.2s">
                     <img src="../imagenes/logo_tramsparente.png" alt="">
 
+                    <div class="cuadro-alerta">
+<div class="centrar">
 
-                    <h2>English Owl Institute</h2>
-                    <p>El equipo de English Owl Institute está formado por un selecto grupo de profesores capacitados en la metodología de la enseñanza con un denominador común: la pasión por el idioma Ingles.</p>
+
+
+		
+	
+         
+                   <h2>Buscar por</h2>
+                   <div class="buscar">
+                     <select class="op" type="text" id="op">
+                            <option value="1">Nombre</option>
+                            <option value="2">Apellido</option>
+                            <option value="3">DNI</option>
+                        </select>                    
+                <input type="search" name="termino" placeholder="Buscar" name="buscar" id="buscar" onkeyup="myFunction()">		
+		    </div>
+</div>
+</div>			
                 </div>
-
-
                 <div class="cuadro2 wow fadeInLeft" data-wow-delay="0.4s">
-
-                   <?php
-	include("mostrar_datos.php");
-?>
+                   <?php include("mostrar_datos.php");?>
                 </div>
             </div>
         </div>
-    </section>
+    </section>    
+    <script>
+function myFunction() {
+    // declaro variable
+  var input, filter, table, tr, td, i, txtValue, option;
+  opt = document.getElementById("op").value;
+ 
+  input = document.getElementById("buscar");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("tabla");
+  tr = table.getElementsByTagName("tr");
+  console.log(opt);
+
+// recorro las filas y oculto l q no contiene la busqueda
+
+  for (i = 0; i < tr.length; i++) {
+    
+    td = tr[i].getElementsByTagName("td")[opt];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+    
+      } else {
+        tr[i].style.display = "none";
+        
+      }
+    }       
+  }
+}
+</script>
+
+
 
 	<section id="nosotros" class="nosotros">
-        <h1>Alumnos</h1>
+        <h1>cursos</h1>
         <div class="contenedor-nosotros">
             <div class="nosotros-item">
 
@@ -140,9 +183,7 @@
 
                 <div class="cuadro2 wow fadeInLeft" data-wow-delay="0.4s">
 
-                   <?php
-	include("mostrar_datos.php");
-?>
+                   
                 </div>
             </div>
         </div>
@@ -152,7 +193,7 @@
 
 
 	<section id="nosotros" class="nosotros">
-        <h1>Alumnos</h1>
+        <h1>Calendario</h1>
         <div class="contenedor-nosotros">
             <div class="nosotros-item">
 
@@ -167,9 +208,7 @@
 
                 <div class="cuadro2 wow fadeInLeft" data-wow-delay="0.4s">
 
-                   <?php
-	include("mostrar_datos.php");
-?>
+                  
                 </div>
             </div>
         </div>
@@ -178,7 +217,7 @@
 
 
 	<section id="nosotros" class="nosotros">
-        <h1>Alumnos</h1>
+        <h1>correo</h1>
         <div class="contenedor-nosotros">
             <div class="nosotros-item">
 
@@ -193,9 +232,7 @@
 
                 <div class="cuadro2 wow fadeInLeft" data-wow-delay="0.4s">
 
-                   <?php
-	include("mostrar_datos.php");
-?>
+                  
                 </div>
             </div>
         </div>
@@ -212,19 +249,19 @@
 <div class="redes" class="fadeInLeft">
 
     <a href="">
-        <img class="img" src="imagenes/faceMenu.jpg" alt="Ir a Faceboock">
+        <img class="img" src="../imagenes/faceMenu.jpg" alt="Ir a Faceboock">
     </a>
     <a href="">
-        <img class="img" src="imagenes/instagramMenu.jpg" alt="Ir a Instagram">
+        <img class="img" src="../imagenes/instagramMenu.jpg" alt="Ir a Instagram">
     </a>
     <a href="">
-        <img class="img" src="imagenes/twitterMenu.jpg" alt="Ir a Twitter">
+        <img class="img" src="../imagenes/twitterMenu.jpg" alt="Ir a Twitter">
     </a>
     <a href="https://blended.com.ar/login">
-        <img class="img" src="imagenes/blendedMenu.jpg" alt=" Ir a Blended">
+        <img class="img" src="../imagenes/blendedMenu.jpg" alt=" Ir a Blended">
     </a>
     <a href="https://api.whatsapp.com/send?phone=0123456789">
-        <img class="img" src="imagenes/wsMenu.jpg" alt="Escribir a Whatsapp">
+        <img class="img" src="../imagenes/wsMenu.jpg" alt="Escribir a Whatsapp">
     </a>
 
 </div>

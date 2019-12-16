@@ -12,6 +12,7 @@
 
 .centrar {
     text-align: center;
+    padding: 30px;
 }
 
 #bloqueo {
@@ -822,6 +823,69 @@ input[type="number"]::-webkit-inner-spin-button {
 .redes .img:hover {
     transform: translate(65px);
     transition: 0.2s linear;
+}
+
+
+/* interno */
+
+.listado {
+    display: block;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+    height: 400px;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tabla {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+}
+
+.tabla .head {
+    background-color: var(--color-verde);
+    color: white;
+}
+
+.tabla th {
+    padding: 5px;
+    text-align: center;
+}
+
+.tabla td a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.tabla td {
+    padding: 5px;
+    margin: 0;
+}
+
+.tabla tr {
+    text-align: center;
+}
+
+tr:hover,
+tr:nth-child(2n+0):hover {
+    background-color: var(--color-verde);
+    color: white;
+}
+
+tr:nth-child(2n+0) {
+    background: rgba(212, 210, 210, 0.651);
+}
+
+.op {
+    font-weight: bold;
+    font-size: large;
 }
 
 @media (max-width: 767px) {

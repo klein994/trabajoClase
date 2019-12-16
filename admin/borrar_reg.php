@@ -1,0 +1,1 @@
+DELETE FROM `usuarios` WHERE `usuarios`.`id` = 18"

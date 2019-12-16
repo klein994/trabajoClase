@@ -91,19 +91,19 @@
 <div class="redes" class="fadeInLeft">
 
     <a href="">
-        <img class="img" src="imagenes/faceMenu.jpg" alt="Ir a Faceboock">
+        <img class="img" src="../imagenes/faceMenu.jpg" alt="Ir a Faceboock">
     </a>
     <a href="">
-        <img class="img" src="imagenes/instagramMenu.jpg" alt="Ir a Instagram">
+        <img class="img" src="../imagenes/instagramMenu.jpg" alt="Ir a Instagram">
     </a>
     <a href="">
-        <img class="img" src="imagenes/twitterMenu.jpg" alt="Ir a Twitter">
+        <img class="img" src="../imagenes/twitterMenu.jpg" alt="Ir a Twitter">
     </a>
     <a href="https://blended.com.ar/login">
-        <img class="img" src="imagenes/blendedMenu.jpg" alt=" Ir a Blended">
+        <img class="img" src="../imagenes/blendedMenu.jpg" alt=" Ir a Blended">
     </a>
     <a href="https://api.whatsapp.com/send?phone=0123456789">
-        <img class="img" src="imagenes/wsMenu.jpg" alt="Escribir a Whatsapp">
+        <img class="img" src="../imagenes/wsMenu.jpg" alt="Escribir a Whatsapp">
     </a>
 
 </div>
