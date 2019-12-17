@@ -43,15 +43,14 @@
 
 
 
-
 	<tr id="itd">
 
-	<td><a href="ficha.php?<?php echo $reg['id'] ?>"><?php echo $reg['id'] ?></a></td>
-    <td><a href="ficha.php?<?php echo $reg['id'] ?>"><?php echo $reg['nombre'] ?></a></td>
-    <td><a href="ficha.php?<?php echo $reg['id'] ?>"><?php echo $reg['apellido'] ?></a></td>
-    <td><a href="ficha.php?<?php echo $reg['id'] ?>"><?php echo $reg['dni'] ?></a></td>
-    <td><a href="ficha.php?<?php echo $reg['id'] ?>"><?php echo $reg['telefono'] ?></a></td>
-	<td><a href="ficha.php?<?php echo $reg['id'] ?>"><?php echo $reg['email'] ?></a></td>
+	<td><a href="https://klein994.000webhostapp.com/admin/editar.php?id=<?php echo $reg['id']?>&nombre=<?php echo $reg['nombre']?>&apellido=<?php echo $reg['apellido']?>&dni=<?php echo $reg['dni']?>&direccion=<?php echo $reg['direccion']?>&edad=<?php echo $reg['edad']?>&telefono=<?php echo $reg['telefono']?>&sede=<?php echo $reg['sede']?>&mail=<?php echo $reg['email']?>"><?php echo $reg['id'] ?></a></td>
+    <td><a href="https://klein994.000webhostapp.com/admin/editar.php?id=<?php echo $reg['id']?>&nombre=<?php echo $reg['nombre']?>&apellido=<?php echo $reg['apellido']?>&dni=<?php echo $reg['dni']?>&direccion=<?php echo $reg['direccion']?>&edad=<?php echo $reg['edad']?>&telefono=<?php echo $reg['telefono']?>&sede=<?php echo $reg['sede']?>&mail=<?php echo $reg['email']?>"><?php echo $reg['nombre'] ?></a></td>
+    <td><a href="https://klein994.000webhostapp.com/admin/editar.php?id=<?php echo $reg['id']?>&nombre=<?php echo $reg['nombre']?>&apellido=<?php echo $reg['apellido']?>&dni=<?php echo $reg['dni']?>&direccion=<?php echo $reg['direccion']?>&edad=<?php echo $reg['edad']?>&telefono=<?php echo $reg['telefono']?>&sede=<?php echo $reg['sede']?>&mail=<?php echo $reg['email']?>"><?php echo $reg['apellido'] ?></a></td>
+    <td><a href="https://klein994.000webhostapp.com/admin/editar.php?id=<?php echo $reg['id']?>&nombre=<?php echo $reg['nombre']?>&apellido=<?php echo $reg['apellido']?>&dni=<?php echo $reg['dni']?>&direccion=<?php echo $reg['direccion']?>&edad=<?php echo $reg['edad']?>&telefono=<?php echo $reg['telefono']?>&sede=<?php echo $reg['sede']?>&mail=<?php echo $reg['email']?>"><?php echo $reg['dni'] ?></a></td>
+    <td><a href="https://klein994.000webhostapp.com/admin/editar.php?id=<?php echo $reg['id']?>&nombre=<?php echo $reg['nombre']?>&apellido=<?php echo $reg['apellido']?>&dni=<?php echo $reg['dni']?>&direccion=<?php echo $reg['direccion']?>&edad=<?php echo $reg['edad']?>&telefono=<?php echo $reg['telefono']?>&sede=<?php echo $reg['sede']?>&mail=<?php echo $reg['email']?>"><?php echo $reg['telefono'] ?></a></td>
+	<td><a href="https://klein994.000webhostapp.com/admin/editar.php?id=<?php echo $reg['id']?>&nombre=<?php echo $reg['nombre']?>&apellido=<?php echo $reg['apellido']?>&dni=<?php echo $reg['dni']?>&direccion=<?php echo $reg['direccion']?>&edad=<?php echo $reg['edad']?>&telefono=<?php echo $reg['telefono']?>&sede=<?php echo $reg['sede']?>&mail=<?php echo $reg['email']?>"><?php echo $reg['email'] ?></a></td>
 
  	</tr>
 
