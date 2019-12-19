@@ -12,7 +12,13 @@
 
 .centrar {
     text-align: center;
-    padding: 30px;
+}
+
+.cuadro-nuser {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: var(--border-estandar);
+    border-radius: 10px;
 }
 
 #bloqueo {
@@ -715,6 +721,12 @@ om: 10px; */
     max-width: 100%;
 }
 
+.form_button {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
 .formulario-inscripcion .button,
 .formulario-mail .button,
 .cuadro-alerta .button {
@@ -727,12 +739,6 @@ om: 10px; */
     color: #fff;
     font-size: 15px;
     border-radius: 20px;
-}
-
-.form-int2 a {
-    padding-top: 10px;
-    text-decoration: none;
-    text-align: center;
 }
 
 .formulario-inscripcion .button:hover,
@@ -801,6 +807,7 @@ input[type="number"]::-webkit-inner-spin-button {
     margin: 0;
     padding: 0;
     max-width: 100%;
+    flex-grow: 1;
 }
 
 
@@ -842,7 +849,7 @@ input[type="number"]::-webkit-inner-spin-button {
     padding: 5px;
     height: 400px;
     max-width: 100%;
-    border: 1px solid black;
+    border: var(--border-estandar);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

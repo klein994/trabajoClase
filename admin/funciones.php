@@ -18,15 +18,4 @@
 		$nombre = mysqli_fetch_array($ej);
 		return $nombre['usuario'];
 	}
-	
 ?>
-
-
-
-
-
-
-
-
-
-

@@ -23,69 +23,61 @@
             <img class="fadeInUpBig" src="../imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
         </div>
 
-        <button id="show-list"><div class="hamb">
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-        </div></button>
+        <button id="show-list">
+            <div class="hamb">
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+            </div>
+        </button>
 
         <div class="contenedornav-2" id="main-ul">
 
             <ul class="nav-2" id="nav-2">
 
                 <li class="nav-li">
-                    <a href="index.php" class="nav-a">INICIO</a>
+                    <a href="#" class="nav-a">¡Modificar!</a>
                 </li>
-                <li class="nav-li">
-                    <a href="index.php#nosotros" class="nav-a">NOSOTROS</a>
-                </li>
-                <li class="nav-li">
-                    <a href="index.php#curso" class="nav-a">CURSOS</a>
-                </li>
-                <li class="nav-li">
-                    <a href="index.php#agenda" class="nav-a">AGENDA</a>
-                </li>
-                <li class="nav-li">
-                    <a href="index.php#sedes" class="nav-a">SEDES</a>
-                </li>
-                <li class="nav-li">
-                    <a href="index.php#contactos" class="nav-a">CONTACTOS</a>
-                </li>
-            </ul>
+                
+
+
+        </div>
 
 
         </div>
 
         <div class="in">
-            <a class="ini" href="inscripciones.php"> INSCRIBETE YA</a>
+            <a class="ini" href="interno.php"> REGRESAR</a>
         </div>
     </nav>
 
     <div class="cuadro-formulario">
-    <div class="formulario-inscripcion">
+        <div class="formulario-inscripcion">
 
 
-    <?php
-     $id = $_GET['id']; 
-     $nombre = $_GET['nombre'];
-     $apellido = $_GET['apellido'];
-     $dni = $_GET['dni'];
-     $edad = $_GET['edad'];
-     $direccion = $_GET['direccion'];
-     $telefono = $_GET['telefono'];
-     $sede = $_GET['sede'];
-     $correo = $_GET['mail'];
-     ?>
-    
+            <?php
+            $id = $_GET['id'];
+            $nombre = $_GET['nombre'];
+            $apellido = $_GET['apellido'];
+            $dni = $_GET['dni'];
+            $edad = $_GET['edad'];
+            $direccion = $_GET['direccion'];
+            $telefono = $_GET['telefono'];
+            $sede = $_GET['sede'];
+            $correo = $_GET['mail'];
+            ?>
 
-            <img src="imagenes/logo_tramsparente.png" alt="">
 
-            <form class="form" class="bounceInLeft" method="post" action="confirm_mail.php">
+            <img src="../imagenes/logo_tramsparente.png" alt="">
 
-            <label for="nombre" class="nombre">Nombre</label>
-            <input type="text" placeholder="Nombre" required id="nombre" name="nombre" value="<?php echo $nombre ?>">
+            <form class="form" class="bounceInLeft" method="post" action="editar_pr.php">
 
-                
+                <input type="hidden" value="<?php echo $id ?>" name="id">
+
+                <label for="nombre" class="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" required id="nombre" name="nombre" value="<?php echo $nombre ?>">
+
+
                 <label for="apellido" class="nombre">Apellido</label>
                 <input type="text" placeholder="Apellido" required id="apellido" name="apellido" value="<?php echo $apellido ?>">
 
@@ -93,7 +85,7 @@
 
                     <div class="interno1">
                         <label for="dni" class="nombre">DNI</label>
-                        <input type="number" placeholder="12345678" required id="dni" name="dni" value="<?php echo $dni ?>" >
+                        <input type="number" placeholder="12345678" required id="dni" name="dni" value="<?php echo $dni ?>">
                     </div>
 
                     <div class="interno1">
@@ -115,30 +107,48 @@
                     </div>
 
                     <div class="interno">
-                    
+
                         <label for="Sede" class="nombre">Sede</label>
                         <select type="text" required id="sede" name="sede">
                             <option value="<?php echo $sede ?>"><?php echo $sede ?></option>
-                            
+
                         </select>
                     </div>
-                    
+
 
                 </div>
-                
+
                 <label for="correo" class="nombre">Correo:<div id="respuesta"></div> </label>
                 <input type="email" value="<?php echo $correo ?>" required id="correo" name="correo">
 
-                
-                <div class="form-int2">
-                <input class="button"  id="actualizar" type="submit" value="Actualizar" />
-                <input class="button"  id="borrar" type="submit" value="Borrar" />
-                <a class="button" href="https://klein994.000webhostapp.com/admin/interno.php">Salir</a>
-                </div>
+
+                <div class="form_button">
+
+                    <input class="button" type="submit" value="Actualizar" />
+
             </form>
-            
+
+            <form action="borrar_reg.php">
+
+                <input type="hidden" value="<?php echo $id ?>" name="id">
+
+                <input class="button" type="submit" value="Borrar" />
+
+            </form>
+
+            <form action="interno.php">
+
+                <input class="button" type="submit" value="salir" />
+
         </div>
-        
+        </form>
+
+
+
+
+
+    </div>
+
     </div>
 
 </body>

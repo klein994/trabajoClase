@@ -9,9 +9,7 @@
 	$edad  = $_POST['edad'];    
 	$telefono  = $_POST['telefono'];
 	$sede  = $_POST['sede'];
-	$email  = $_POST['correo'];
-   
-   
+	$email  = $_POST['correo'];   
 	$clave   = md5($_POST['clave']);
 	
 	// 1. Conectarme a la BD

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Englishowl</title>
     <link href='imagenes/favicon.png' rel='icon' type='image/x-icon' />
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
@@ -14,7 +14,7 @@
     <meta property="og:image" content="https://thumbs.subefotos.com/ae0afae86cbc8f8ece8aaf7a8f3a9e9eo.jpg">
     <meta property="og:url" content="http://www.englishowl.com.ar/">
     <meta property="og:site_name" content="English Owl Institute">
-    <meta name="og:locale" content="es_AR">   
+    <meta name="og:locale" content="es_AR">
     <meta property="og:type" content="website">
     <!-- Search Engine -->
     <meta name="description" content="English Owl Institute está formado por un selecto grupo de profesores capacitados en la metodología de la enseñanza en el idioma Ingles">
@@ -22,12 +22,12 @@
 
     <!-- fuente -->
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
-    <!-- link a css -->    
+    <!-- link a css -->
     <link rel="stylesheet" href="swiper.css">
     <link rel="stylesheet" href="animacion.css">
     <link rel="stylesheet" href="style.css" />
 
-    
+
 
 </head>
 
@@ -41,11 +41,13 @@
             <img class="fadeInUpBig" src="imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
         </div>
 
-        <button id="show-list"><div class="hamb">
-        <spam class="line"></spam>
-        <spam class="line"></spam>
-        <spam class="line"></spam>
-    </div></button>
+        <button id="show-list">
+            <div class="hamb">
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+            </div>
+        </button>
 
         <div class="contenedornav-2" id="main-ul">
 
@@ -414,8 +416,7 @@
                     <h2 class="direccion">Av. Cabildo 1382 CABA TLF:011 4784-9151</h2>
 
                     <div class="map1">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.767590772204!2d-58.458349417075794!3d-34.57011202012953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70cd48b518dca34f!2sIngl%C3%A9s%20Owl%20Institute!5e0!3m2!1sen!2sar!4v1570404734638!5m2!1sen!2sar"
-                            width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen="" title="mapa dirección belgrano"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.767590772204!2d-58.458349417075794!3d-34.57011202012953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70cd48b518dca34f!2sIngl%C3%A9s%20Owl%20Institute!5e0!3m2!1sen!2sar!4v1570404734638!5m2!1sen!2sar" width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen="" title="mapa dirección belgrano"></iframe>
                     </div>
                 </div>
 
@@ -426,8 +427,7 @@
                     <h2>Barracas</h2>
                     <h2 class="direccion">Isabel La Católica 630 CABA TLF:011 4303-3645</h2>
                     <div class="map2">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.662565988286!2d-58.375571684899576!3d-34.63796656681784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4b1a2aac83%3A0xe27b26a2cf201e23!2sEnglish%20Owl%20Institute!5e0!3m2!1sen!2sar!4v1570404682921!5m2!1sen!2sar"
-                            width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen="" title="mapa dirección barracas"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.662565988286!2d-58.375571684899576!3d-34.63796656681784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4b1a2aac83%3A0xe27b26a2cf201e23!2sEnglish%20Owl%20Institute!5e0!3m2!1sen!2sar!4v1570404682921!5m2!1sen!2sar" width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen="" title="mapa dirección barracas"></iframe>
 
                     </div>
                 </div>
@@ -452,12 +452,12 @@
 
                         <form class="form" method="post" action="mail.php">
 
-                        <label for="nombre" class="nombre">Nombre</label>
-                        <input type="text" placeholder="Nombre" required id="nombre" name="nombre">
+                            <label for="nombre" class="nombre">Nombre</label>
+                            <input type="text" placeholder="Nombre" required id="nombre" name="nombre">
 
-                        <label for="apellido" class="nombre">Apellido</label>
-                         <input type="text" placeholder="Apellido" required id="apellido" name="apellido">
-                            
+                            <label for="apellido" class="nombre">Apellido</label>
+                            <input type="text" placeholder="Apellido" required id="apellido" name="apellido">
+
 
 
                             <div>

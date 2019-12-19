@@ -23,11 +23,13 @@
             <img class="fadeInUpBig" src="imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
         </div>
 
-        <button id="show-list"><div class="hamb">
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-        </div></button>
+        <button id="show-list">
+            <div class="hamb">
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+            </div>
+        </button>
 
         <div class="contenedornav-2" id="main-ul">
 
@@ -64,10 +66,10 @@
     <div class="cuadro-formulario">
         <?php
         require("formulario.php");
-       
-        
-        
-    
+
+
+
+
         ?>
     </div>
 
@@ -94,5 +96,3 @@
 </div>
 <script src="preguntar.js"></script>
 <script src="script.js"></script>
-
-

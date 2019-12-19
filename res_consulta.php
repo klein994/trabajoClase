@@ -1,5 +1,4 @@
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -24,11 +23,13 @@
             <img class="fadeInUpBig" src="imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
         </div>
 
-        <button id="show-list"><div class="hamb">
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-        </div></button>
+        <button id="show-list">
+            <div class="hamb">
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+            </div>
+        </button>
 
         <div class="contenedornav-2" id="main-ul">
 
@@ -63,24 +64,24 @@
     </nav>
 
     <div class="cuadro-formulario">
-    <div class="formulario-inscripcion">
-<div class="cuadro-alerta">
-<img src="imagenes/logo_tramsparente.png" alt="">
+        <div class="formulario-inscripcion">
+            <div class="cuadro-alerta">
+                <img src="imagenes/logo_tramsparente.png" alt="">
 
-<h1>English Owl Institute</h1>
-<img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_960_720.png"style="width:50px;">
+                <h1>English Owl Institute</h1>
+                <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_960_720.png" style="width:50px;">
 
-<h2>¡Consulta enviada!</h2>
-        
-        <p>En la brevedad un representante de nuestro equipo se contactará con usted para ampliar la información que necesites. </p>
-        
+                <h2>¡Consulta enviada!</h2>
 
-        <form action="index.php">
-        <input class="button"  id="siguiente" type="submit" value="siguiente" />
-        </form> 
-</div>
+                <p>En la brevedad un representante de nuestro equipo se contactará con usted para ampliar la información que necesites. </p>
+
+
+                <form action="index.php">
+                    <input class="button" id="siguiente" type="submit" value="siguiente" />
+                </form>
+            </div>
+        </div>
     </div>
-</div>
 </body>
 
 <div class="redes" class="fadeInLeft">

@@ -23,11 +23,13 @@
             <img class="fadeInUpBig" src="imagenes/logo_tramsparente2.png" alt="" height="60px" width="60px">
         </div>
 
-        <button id="show-list"><div class="hamb">
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-            <spam class="line"></spam>
-        </div></button>
+        <button id="show-list">
+            <div class="hamb">
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+                <spam class="line"></spam>
+            </div>
+        </button>
 
         <div class="contenedornav-2" id="main-ul">
 
@@ -62,16 +64,16 @@
     </nav>
 
     <div class="cuadro-formulario">
-    <div class="formulario-inscripcion">
+        <div class="formulario-inscripcion">
 
             <img src="imagenes/logo_tramsparente.png" alt="">
 
             <form class="form" class="bounceInLeft" method="post" action="confirm_mail.php">
 
-            <label for="nombre" class="nombre">Nombre</label>
-            <input type="text" placeholder="Nombre" required id="nombre" name="nombre">
+                <label for="nombre" class="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" required id="nombre" name="nombre">
 
-                
+
                 <label for="apellido" class="nombre">Apellido</label>
                 <input type="text" placeholder="Apellido" required id="apellido" name="apellido">
 
@@ -79,7 +81,7 @@
 
                     <div class="interno1">
                         <label for="dni" class="nombre">DNI</label>
-                        <input type="number" placeholder="12345678" required id="dni" name="dni" >
+                        <input type="number" placeholder="12345678" required id="dni" name="dni">
                     </div>
 
                     <div class="interno1">
@@ -107,22 +109,22 @@
                             <option value="Barracas">Barracas</option>
                         </select>
                     </div>
-                    
+
 
                 </div>
-                <?php  $mail = $_GET['mail']; ?>
+                <?php $mail = $_GET['mail']; ?>
                 <label for="correo" class="nombre">Correo:<div id="respuesta"></div> </label>
-                <input type="email" value="<?php echo base64_decode($mail);?>" required id="correo" name="correo">
+                <input type="email" value="<?php echo base64_decode($mail); ?>" required id="correo" name="correo">
 
-                <label for="clave" class="nombre">Contraseña</label>                
+                <label for="clave" class="nombre">Contraseña</label>
                 <input type="password" placeholder="" required id="clave" name="clave">
 
-                <input class="button"  id="siguiente" type="submit" value="siguiente" />
-                <div id="bloqueo" ></div>
+                <input class="button" id="siguiente" type="submit" value="siguiente" />
+                <div id="bloqueo"></div>
             </form>
-            
+
         </div>
-        
+
     </div>
 
 </body>
